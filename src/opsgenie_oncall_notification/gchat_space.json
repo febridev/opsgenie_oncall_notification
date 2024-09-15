@@ -5,7 +5,7 @@
     "opsgenie_url":"<url_api_from_opsgenie>",
     "header_message":"Hi",
     "body_message": "\nThese are member of *<your_team>* for Today.\n",
-    "footer_message": "Please use `/groups cfpp-corepayment` for CFPP Payment Support",
+    "footer_message": "<your_footer_message>",
     "mention_all": "<if everyday will be mention all everyday, if value like monday, will be mention only monday>"
 
   }
