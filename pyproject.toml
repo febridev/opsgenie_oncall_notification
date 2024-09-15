@@ -1,7 +1,7 @@
 [project]
 name = "opsgenie_oncall_notification"
 version = "0.1.0"
-description = "Opsgenie Oncall Rotation Notification"
+description = "Opsgenie Oncall Rotation Notifications"
 authors = [
     {name = "febridev", email = "febriyantabidin@gmail.com"},
 ]
@@ -17,7 +17,6 @@ license = {text = "MIT"}
 [build-system]
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
-
 
 [tool.pdm]
 distribution = true
