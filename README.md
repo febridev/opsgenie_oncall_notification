@@ -33,7 +33,7 @@ vi .env
 ```
 
 Add your team and space url if needed
-![Setup Google Chat Webhooks](https://developers.google.com/workspace/chat/quickstart/webhooks)
+[Setup Google Chat Webhooks](https://developers.google.com/workspace/chat/quickstart/webhooks)
 
 ```bash
 vi src/opsgenie_oncall_notification/gchat_space.json
@@ -41,7 +41,7 @@ vi src/opsgenie_oncall_notification/gchat_space.json
 
 Add your userid from google chat and your email if needed
 
-![Get Google Chat UserId](https://developers.google.com/workspace/chat/api/reference/rest)
+[Get Google Chat UserId](https://developers.google.com/workspace/chat/api/reference/rest)
 
 ```bash
 vi src/opsgenie_oncall_notification/gchat_userid.json
