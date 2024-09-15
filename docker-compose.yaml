@@ -1,0 +1,13 @@
+#docker
+version: "3.9" #compose version
+services:
+  oncall_app:
+    image: opsgenie_oncall_notification:1.0
+    container_name: "opsgenie_oncall_notification"
+    build: .
+    volumes:
+      - "./gchat_space.json:./src/oncall_app/gchat_space.json"
+      - "./gchat_userid.json:./src/oncall_app/gchat_userid.json"
+
+volumes:
+  oncallapp:

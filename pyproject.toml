@@ -1,0 +1,23 @@
+[project]
+name = "opsgenie_oncall_notification"
+version = "0.1.0"
+description = "Opsgenie Oncall Rotation Notification"
+authors = [
+    {name = "febridev", email = "febriyantabidin@gmail.com"},
+]
+dependencies = [
+    "httplib2>=0.22.0",
+    "requests>=2.32.3",
+    "python-dotenv>=1.0.1",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
